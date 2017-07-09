@@ -1,0 +1,158 @@
+    /*.clr{
+		clear:both;
+		width: 0;
+		height:0;
+	}*/
+	*{
+		margin: 0;
+		padding:0;
+		font-size: 20px;
+	}
+	body{
+		width: 1002px;
+		margin: 0 auto;
+	}
+
+	#header{
+		height: 60px;
+	}
+	.logo img{
+		float: left;
+		height: 50px;
+	}
+	ul{
+		list-style-type: none;
+		padding:0;
+		margin: 0;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+		text-align: center;
+	}
+	.nav li{
+		width: 100px;
+		margin-right: 1px;
+		list-style-type: none;
+		float: left;
+	}
+	.nav li a{
+		display: block;
+		font-size: 16px;
+		color: black;
+		width: 100px;
+		height: 50px;
+		text-align: center;
+		line-height: 55px;
+		margin-top: 5px;
+	}
+	.nav li a:hover{
+		background: pink;
+	}
+	#point{
+		padding: 2px;
+	}
+	.news{
+		height: 40px;
+		color: white;
+		margin: 10px 1px;
+
+			}
+	.news h2{
+		line-height: 40px;
+		float: left;
+		display: block;
+		width: 180px;
+		height: 40px;
+		background: pink;
+		text-align: center;
+	}
+	.news p{
+		background:grey;
+		display: block;
+		height: 40px;
+		width: 802px;
+		line-height: 40px;
+		padding-left: 200px;
+	}
+	#top{
+		height: 165px;
+	}
+	.three{
+		float: left;
+		padding-right: 4px;
+		padding-top: 2px;
+	}
+	.three a {
+		width: 328px;
+		height:27px;
+		display: block;
+		text-align: center;
+		border:1px solid #CCC;
+	}
+	#main{
+		height: 387px;
+	}
+	.third {
+		width: 330px;
+		height: 360px;
+		float: left;
+		margin: 1px;
+		margin-top: 16px;
+		/*border: 1px solid grey;
+		border-top: none;*/
+	}
+	#th, #art {
+		width: 326px;
+		height: 327px;
+		padding:1px;
+		border: 1px solid #CCC;
+		border-top: none;
+	}
+	#test1,#test2,#test3{
+		margin:10px;
+		width: 50px;
+		height: 70px;
+		border: 1px solid #CCC;
+		background-color: pink;
+		border-radius: 10px;
+		float: left;
+	}
+	#art p{
+		height: 70px;
+		padding: 5px;
+	}
+	#art li{
+		font-size: 13px;
+		margin-left: 70px;
+		margin-top: 10px;
+	}
+	#act{
+		width: 298px;
+		height: 298px;
+		border: 1px solid #CCC;
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+	#act img{
+		height: 150px;
+		width:270px;
+	}
+	.subtitle{
+		width:330px;
+		height:40px;
+		background-color: pink;
+	}
+	.subtitle h2{
+		font-size: 20px;
+		padding-top: 7px;
+		padding-left: 12px;
+	}
+	#footer{
+		height: 80px;
+		background-color: white;
+	}
+	#footer p{
+		text-align: center;
+		line-height: 120px;
+	}
